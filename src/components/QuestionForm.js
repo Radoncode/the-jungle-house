@@ -1,13 +1,17 @@
+import { useState } from 'react';
+
 const QuestionForm = () => {
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(e.target['my_input'].value);
+    const [inputValue, setInputValue] = useState('Ask your question here');
+
+    const handleClick = () => {
+        alert(inputValue);
     }
     return <div>
-                <form onSubmit={handleSubmit}>
-                    <input type='text' name='my_input' defaultValue='type your text here' />
-                    <button type='submit'>Entrer</button>
-                </form>
+                <textarea
+                    value={inputValue}
+                    onChange={(e) => setInputValue(e.target.value)}
+                />
+                <button onClick={handleClick}>Alert me 🚨</button>
     </div>
 }
 
