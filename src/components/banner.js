@@ -1,6 +1,5 @@
 import '../styles/Banner.css';
 import logo from '../assets/logo.png';
-/*import Recommendation from './Recommendation.js';*/
 
 const Banner = () => {
     const title = "The jungle house";
@@ -8,8 +7,7 @@ const Banner = () => {
                 <div className='tjh-banner-row'>
                     <img src={logo} alt='the logo of the jungle house' className='tjh-logo'/>
                     <h1 className='tjh-title'>{title}</h1>
-                 </div>
-                { /*<Recommendation />*/   }           
+                 </div>        
             </div>
 
 }
