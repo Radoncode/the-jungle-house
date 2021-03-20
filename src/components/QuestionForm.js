@@ -2,15 +2,18 @@ import { useState } from 'react';
 
 const QuestionForm = () => {
     const [inputValue, setInputValue] = useState('Ask your question here');
-    const isInputError = inputValue.includes('f');
 
+    const checkValue = (value) => {
+        if(!value.includes('f')){
+            setInputValue(value);
+        }
+    }
     return <div>
                 <textarea
                     value={inputValue}
-                    onChange={(e) => setInputValue(e.target.value)}
+                    onChange={(e) => checkValue(e.target.value)}
                 />
-                <button onClick={() => isInputError ?
-       alert(`🔥 Vous n'avez pas le droit d'utiliser la lettre "f" ici`): alert(inputValue)}>Alert me 🚨</button>
+                <button onClick={()=> alert(inputValue)}>Alert me 🚨</button>
     </div>
 }
 
