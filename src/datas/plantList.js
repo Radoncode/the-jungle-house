@@ -1,70 +1,78 @@
+import monstera from '../assets/monstera.jpg';
+
 export const plantList = [
 	{
 		name: 'monstera',
-		category: 'classic',
+		category: 'classique',
 		id: '1ed',
 		isBestSale: true,
-		light: 6,
-		water: 2
+		light: 2,
+		water: 3,
+		cover: monstera
 	},
 	{
 		name: 'ficus lyrata',
-		category: 'classic',
+		category: 'classique',
 		id: '2ab',
-		light: 4,
-		water: 8
+		light: 3,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'pothos argenté',
-		category: 'classic',
+		category: 'classique',
 		id: '3sd',
-		isSpecialOffer: true,
 		light: 1,
-		water: 1
+		water: 2,
+		cover: monstera
 	},
 	{
 		name: 'yucca',
-		category: 'classic',
+		category: 'classique',
 		id: '4kk',
 		light: 3,
-		water: 4
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'olivier',
-		category: 'outside',
+		category: 'extérieur',
 		id: '5pl',
-		light: 7,
-		water: 3
+		light: 3,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'géranium',
-		category: 'outside',
+		category: 'extérieur',
 		id: '6uo',
-		light: 5,
-		water: 1
+		light: 2,
+		water: 2,
+		cover: monstera
 	},
 	{
 		name: 'basilique',
-		category: 'outside',
+		category: 'extérieur',
 		id: '7ie',
 		isBestSale: true,
 		light: 2,
-		water: 2
+		water: 3,
+		cover: monstera
 	},
 	{
 		name: 'aloe',
-		category: 'greasy plant',
+		category: 'plante grasse',
 		id: '8fp',
-		isSpecialOffer: true,
-		light: 6,
-		water: 5
-
+		light: 2,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'succulente',
-		category: 'greasy plant',
+		category: 'plante grasse',
 		id: '9vn',
 		light: 2,
-		water: 1
+		water: 1,
+		cover: monstera
 	}
 ]

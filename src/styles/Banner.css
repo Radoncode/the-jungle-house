@@ -5,12 +5,11 @@
     border-bottom: solid 3px black;
     display: flex;
     justify-content: flex-end;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
 .tjh-title {
-    display: inline;
     padding-left: 32px;
 }
 
@@ -19,6 +18,3 @@
     width: 45px;
 }
 
-.tjh-banner-row {
-    
-}

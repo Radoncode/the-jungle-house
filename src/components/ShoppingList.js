@@ -1,18 +1,20 @@
 import {plantList} from '../datas/plantList';
 import '../styles/ShoppingList.css';
-import CareScale from './CareScale';
+import PlantItem from './PlantItem';
 
 const ShoppingList = () => {
-    return <ul className='tjh-plant-list'>
-            {plantList.map((plant) => (
-                <li className='tjh-plant-item' key={plant.id}>
-                    {plant.name}{plant.isBestSale ? <span>🔥 </span> : null}
-                    {plant.isSpecialOffer && <div className="tjh-sales">Sales</div>}
-                    <CareScale careType='water' scaleValue={plant.water} />
-                    <CareScale careType='light' scaleValue={plant.light} />
-                </li>
-            ))}
-            </ul>
+    return <div>
+                <ul className='tjh-plant-list'>
+                    {plantList.map((plant) => (
+                            <PlantItem name={plant.name}
+                                        cover={plant.cover}
+                                        key={plant.id}
+                                        light={plant.light}
+                                        water={plant.water}
+                            />
+                    ))}
+                </ul>
+        </div>
 }
 
 export default ShoppingList;
