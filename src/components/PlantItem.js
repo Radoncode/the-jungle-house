@@ -3,13 +3,11 @@ import '../styles/PlantItem.css';
 
 const PlantItem = ({name, cover, id, light, water}) => 
 {   
-    const handleClick = (e) => {
-        console.log(e);
-    }
-    return <li className='tjh-plant-item' key={id} onClick={handleClick}>
+
+    return <li className='tjh-plant-item' key={id}>
                 <img src={cover}  alt={`${name} cover`} className='tjh-plant-item-cover' />
                 {name}
-                <div>
+                <div> 
                     <CareScale careType='water' scaleValue={water} />
                     <CareScale careType='light' scaleValue={light} />
                 </div>
