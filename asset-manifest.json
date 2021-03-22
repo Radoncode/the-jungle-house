@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/the-jungle-house/static/css/main.4e1f2a71.chunk.css",
+    "main.js": "/the-jungle-house/static/js/main.106bf763.chunk.js",
+    "main.js.map": "/the-jungle-house/static/js/main.106bf763.chunk.js.map",
+    "runtime-main.js": "/the-jungle-house/static/js/runtime-main.480a213c.js",
+    "runtime-main.js.map": "/the-jungle-house/static/js/runtime-main.480a213c.js.map",
+    "static/js/2.e964690b.chunk.js": "/the-jungle-house/static/js/2.e964690b.chunk.js",
+    "static/js/2.e964690b.chunk.js.map": "/the-jungle-house/static/js/2.e964690b.chunk.js.map",
+    "static/js/3.5d69c44b.chunk.js": "/the-jungle-house/static/js/3.5d69c44b.chunk.js",
+    "static/js/3.5d69c44b.chunk.js.map": "/the-jungle-house/static/js/3.5d69c44b.chunk.js.map",
+    "index.html": "/the-jungle-house/index.html",
+    "static/css/main.4e1f2a71.chunk.css.map": "/the-jungle-house/static/css/main.4e1f2a71.chunk.css.map",
+    "static/js/2.e964690b.chunk.js.LICENSE.txt": "/the-jungle-house/static/js/2.e964690b.chunk.js.LICENSE.txt",
+    "static/media/monstera.6257bc6b.jpg": "/the-jungle-house/static/media/monstera.6257bc6b.jpg",
+    "static/media/sun.d683fdc9.svg": "/the-jungle-house/static/media/sun.d683fdc9.svg",
+    "static/media/water.77d8b374.svg": "/the-jungle-house/static/media/water.77d8b374.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.480a213c.js",
+    "static/js/2.e964690b.chunk.js",
+    "static/css/main.4e1f2a71.chunk.css",
+    "static/js/main.106bf763.chunk.js"
+  ]
+}
